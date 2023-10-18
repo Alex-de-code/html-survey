@@ -6,7 +6,75 @@
     <title>HTML Survey</title>
 </head>
 <body>
-    <h1>Farewell Survey Form</Form></h1>
+    <h1>Farewell Survey Form</h1>
+    <label for="Name">Name:</label>
+    <input type="text" id="Name"
+    name:"Name" placeholder="John Doe">
+    <br> <br>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email"
+    name:"Email" placeholder="JohnD86@gmail.com">
+    <br> <br>
+    <label for="Age">Age:</label>
+    <input type="number" id="Age"
+    name:"Age" placeholder="37">
+    <br> <br>
+   <label for="role" if="label-role">Which option best describes you?
+   </label>
+   <select name="role" id="role">
+    <option value="student">Student</option>
+    <option value="intern">Intern</option>
+    <option value="professional">Professional</option>
+    <option value="other">Other</option>
+   </select>
+   <br> <br>
+   <label id="label-atendance">
+    Will you attend the party?
+    <label for="attend-1" id="label-attend1">
+     <input type="radio" id="attend-1" name="attend">
+        Yes
+    </input>
+    </label>
+   </label>
+   <label for="attend-2" id="label-attend-2">
+    <input type="radio" id="attend-2" name="attend">
+        No
+   </input>
+   </label>
+   <p></p>
+   <label>What did you like about the program?</label>
+   <br> 
+   <label for="inp-1">
+    <input type="checkbox" name="inp">Training
+    </label>
+    <br>
+    <label for="inp-2">
+        <input type="checkbox" name="inp">The Learning Sessions from Industry Experts
+    </label>
+    <br>
+    <label for="inp-3">
+        <input type="checkbox" name="inp">Community Meetups
+    </label>
+    <br>
+    <label for="inp-4">
+        <input type="checkbox" name="inp">Brown Bag Sessions
+    </label>
+    <br>
+    <label for="inp-5">
+        <input type="checkbox" name="inp">Switching to Hybrid Model
+    </label>
+    <br>
+    <label for="inp-6">
+        <input type="checkbox" name="inp">Food, Office etc.
+    </label>
+    <br> <br>
+    <label for="comment">
+    Any comments or suggestions please leave below!    
+    </label>
+    <br>
+    <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
 
+
+ 
 </body>
 </html>
